@@ -1,0 +1,86 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the weather app */
+.weather-app {
+    text-align: center;
+}
+
+/* Styling for the weather card */
+.weather-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Header styles */
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Temperature display styles */
+#temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Description styles */
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Humidity display styles */
+#humidity {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input field styles */
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}

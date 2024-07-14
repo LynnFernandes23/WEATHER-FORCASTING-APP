@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <Body background="BACKGROUND.jpg">   
+    <div class="weather-app">
+        <div class="weather-card">
+            <h1 align="center" style="color:rgb(228, 13, 13)">WEATHER FORCASTING APP </h1>
+            <p align="center">THIS IS MY WEATHER FORCASTING APP ! &#127780; </p> <hr>
+            <h4 align="center"> CITY NAME : </h4>
+            <div align="center" id="city"> </div>
+            <h4 align="center"> TEMPERATURE : </h4>
+            <div align="center" id="temperature"> Fetching temperature °C </div>
+            <h4 align="center"> WEATHER DESCRIPTION : </h4>
+            <div align="center"  id="description"> Fetching weather </div>
+            <h4 align="center"> HUMIDITY : </h4>
+            <div align="center" id="humidity"> Fetching humidity % </div><br><hr><br><br>
+            <h4 align="center"> ENTER CITY NAME : </h4>
+            <div align="center"><input type="text" id="cityInput" placeholder="Enter city name"></div><br>
+            <div align="center" ><button onclick="getWeather()">Get Weather</button></div><br><br>
+            <p align="center" style="color: blue;"> MADE BY LYNN FERNANDES &#10084; </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
